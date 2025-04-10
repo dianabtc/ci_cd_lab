@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/dianabtc/ci_cd_lab:latest
+          image: ghcr.io/dianabtc/go-simple-webserver@sha256:01d2ee583f4f6df71160b230dc001c30079f7e9ff3621efaf7b29ead3c5efd24
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
